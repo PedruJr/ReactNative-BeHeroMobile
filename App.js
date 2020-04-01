@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Routes from './src/routes';
 /*
   -started with expo init nomedoprojeto
   -assets possui o icon e o splash screen
@@ -18,9 +19,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>lets dev a app!</Text>
-    </View>
+    <Routes />
   );
 }
 
